@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+# StudyNotion Ed-Tech Platform 
+
+ **Live Demo:** https://study-notion-sand-sigma.vercel.app/
+
+> Note: Payment functionality is disabled in the demo because Razorpay API keys are not configured.
+
 # StudyNotion Ed-Tech Platform
 
 StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
@@ -125,5 +130,5 @@ Thank you for using StudyNotion!
 
 
 =======
-# Study-Notion
->>>>>>> 163e47ebe876932d7dfaecab2ab691d3d894102d
+
+
