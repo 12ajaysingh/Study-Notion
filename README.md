@@ -1,6 +1,7 @@
 # StudyNotion Ed-Tech Platform 
 
  **Live Demo:** https://study-notion-sand-sigma.vercel.app/
+ **Backend API**: https://study-notion-at06.onrender.com
 
 > Note: Payment functionality is disabled in the demo because Razorpay API keys are not configured.
 
