@@ -8,7 +8,10 @@ const mailSender = async (email, title, body) =>{
             auth: {
               user: process.env.MAIL_USER,
               pass: process.env.MAIL_PASS,
-            }
+            },
+            connectionTimeout: 20000, //  20 seconds
+            greetingTimeout: 20000,
+            socketTimeout: 20000,
           })
 
           let info = await transporter.sendMail({

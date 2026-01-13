@@ -30,10 +30,6 @@ async function sendVerificationOTP(email, otp) {
     }
 }
 
-OTPSchema.pre("save", async function (next) {
-    console.log("Mail in pre hook", this.email)
-    await sendVerificationOTP(this.email, this.otp);
-    next();
-}) 
+
 
 module.exports = mongoose.model("OTP", OTPSchema);
